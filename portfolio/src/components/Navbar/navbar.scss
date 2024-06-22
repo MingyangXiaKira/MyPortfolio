@@ -1,0 +1,24 @@
+.Navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .navbar {
+    width: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .wrapper {
+      font-size: larger;
+      font-weight: bolder;
+    }
+
+    .social {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+    }
+  }
+}

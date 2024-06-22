@@ -1,0 +1,35 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+section {
+  scroll-snap-align: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: none;
+  }
+}
+@mixin mobile {
+  @media (max-width: 738px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
