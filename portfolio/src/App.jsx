@@ -4,7 +4,7 @@ import Section from "./components/Section/Section";
 import React, { useRef, Suspense, lazy } from "react";
 const Contact = lazy(() => import("./components/Contact/Contact"));
 const Hero = lazy(() => import("./components/Hero/Hero"));
-const Parallax = lazy(() => import("./components/Parallax/Parallax"));
+const Parallax = lazy(() => import("./components/Parallax/Parallax1"));
 const Portfolio = lazy(() => import("./components/Portfolio/portfolio"));
 const Works = lazy(() => import("./components/Works/Works"));
 const App = () => {
