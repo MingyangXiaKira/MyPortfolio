@@ -13,7 +13,7 @@ const items = [
   {
     id: 2,
     title: "React19 Landing Page",
-    img: "./jsts.jpeg",
+    img: "./jsts.WebP",
     href: "https://react19-landingpage2.vercel.app/",
     desc: "A landing page based on latest published React19 features",
   },
